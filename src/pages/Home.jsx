@@ -37,14 +37,13 @@ export default function Home() {
       >
         <div className="mx-auto max-w-6xl px-5 py-4 flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-baseline gap-2">
-            <span className="font-display text-2xl font-semibold tracking-wide">
-              Blisshouse
-            </span>
-            <span className="font-body text-xs tracking-[0.2em] text-[#f5e9c8]/80">
-              REAL ESTATE
-            </span>
-          </a>
+          <a href="#" className="flex items-center gap-3">
+            <img
+                src="/BHlogo.png"
+                alt="Blisshouse Logo"
+                className="h-10 md:h-12 object-contain"
+            />
+        </a>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8 font-body text-sm">

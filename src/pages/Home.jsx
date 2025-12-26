@@ -138,9 +138,7 @@ export default function Home() {
               PHUKET · THAILAND
             </p>
             <h1 className="font-display text-5xl sm:text-6xl leading-tight mt-4">
-              Premium Properties,
-              <br />
-              Curated for Lifestyle & ROI
+                Phuket Real Estate – Luxury Villas & Condos for Sale and Rent
             </h1>
             <p className="font-body text-[#f5e9c8]/80 mt-6 max-w-xl">
               Discover luxury pool villas, beachfront condos, and investment-grade land
@@ -162,6 +160,14 @@ export default function Home() {
               >
                 Get Consultation
               </a>
+              
+                <a
+                    href="/areas"
+                    className="text-center px-8 py-3 border text-[#f5e9c8]/85 hover:text-[#d4af37] transition"
+                    style={{ borderColor: "#2b2612" }}
+                    >
+                    Browse Phuket Areas
+                </a>
             </div>
 
             <div className="mt-10 grid grid-cols-3 gap-4">
@@ -207,7 +213,9 @@ export default function Home() {
 
       {/* FEATURED */}
       <section id="properties" className="mx-auto max-w-6xl px-5 py-20">
-        <h2 className="font-display text-3xl text-center mb-10">Featured Properties</h2>
+        <h2 className="font-display text-3xl text-center mb-10">
+        Featured Phuket Properties for Sale
+        </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {[
             { title: "Luxury Pool Villa", meta: "3–5 BR · Private Pool · Hillside View" },
@@ -249,7 +257,9 @@ export default function Home() {
 
       {/* CATEGORIES */}
       <section id="categories" className="mx-auto max-w-6xl px-5 py-20">
-        <h2 className="font-display text-3xl mb-10">Property Categories</h2>
+        <h2 className="font-display text-3xl mb-10">
+        Phuket Property Categories
+        </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 font-body">
           {["Luxury Villas", "Condos", "Investment Land", "Rental Management"].map((c) => (
             <div
@@ -265,6 +275,19 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <section className="mx-auto max-w-6xl px-5 py-20 font-body text-[#f5e9c8]/85">
+        <h2 className="font-display text-3xl mb-6">
+            Buy Property in Phuket with Blisshouse
+        </h2>
+        <p>
+            Blisshouse is a Phuket-based real estate agency offering curated luxury villas, condos and land for sale in Rawai, Kata, Chalong, Kamala and Bang Tao. 
+            We assist foreign buyers with secure property acquisition, ownership structures, and rental yield optimization.
+        </p>
+        <p className="mt-4">
+            Our Phuket real estate specialists provide market insights, legal coordination, and ROI planning for lifestyle and investment buyers.
+        </p>
+    </section>
 
       {/* CONTACT */}
       <section id="contact" className="mx-auto max-w-6xl px-5 py-20 text-center">
